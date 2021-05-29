@@ -1,0 +1,4 @@
+include ':mobileapp'
+include ':app:mobileapp'
+include ':app'
+rootProject.name = "MyFirstWearApp"
