@@ -25,6 +25,8 @@ public class NotificationDetails extends AppCompatActivity {
        // String reply_was = getResources().getString(R.string.reply_was);
        // Toast.makeText(this,reply_was+ charSequence, Toast.LENGTH_LONG).show();
         String result = charSequence.toString();
+
+
         if(result.equalsIgnoreCase("yes")){
 //open map
             Intent mapIntent= new Intent(Intent.ACTION_VIEW);
